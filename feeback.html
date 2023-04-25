@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+body{
+    background-color: lightskyblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+label{
+    color:green;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0.5px 0.5px coral;
+}
+#text{
+    font: size 14px; 
+    color:red;
+    height:40px;
+    border-radius:5px; 
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form id="f1" method="POST" action="mailto:aneeshmadey1022@gmail.com" enctype="text/plain" autocomplete="on" target="_blank">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fn"> <br>
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="ln"> <br>
+        <br>
+        <label for="Gender">Gender</label> 
+        <br>
+        <input type="radio" name="gender" value="Male"> Male<br>
+        <input type="radio" name="gender" value="Female"> Female<br>
+        <br>
+        <label for="feedback">Feedback for the Website:</label> <br>
+        <textarea name="feedback" id="text" cols="30" rows="10"></textarea><br>
+        <input type="Submit"> 
+
+        
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
